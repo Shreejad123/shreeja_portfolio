@@ -5,7 +5,9 @@ function About() {
   return (
     <>
       <div className={styles.aboutSection}>
-        <p className={styles.welcome}>Welcome to my site</p>
+        <p className={styles.welcome}>
+          <b>Welcome to my site</b>
+        </p>
 
         <h2 className={styles.header}>
           <b>Hi, I’m Shreeja D Kotian, </b>
@@ -14,9 +16,13 @@ function About() {
           <b>frontend Web Developer</b>
         </p>
         <p className={styles.paragraph}>
-          I am a focused and talented B.Sc.CSIT student currently pursuing my
-          bachelor degree from Asian School of Management and Technology.See
-          More..
+          Frontend Developer with 3+ years of IT experience and 1+ year
+          specializing in React.js development. Proficient in JavaScript (ES6+),
+          HTML5, and CSS3, with experience building responsive web applications
+          and REST API integrations. <br></br>A self-taught developer passionate
+          about clean code, UI performance <br></br>optimization, and modern
+          frontend practices, with strong problem-solving and <br></br>{" "}
+          communication skills.
         </p>
         <button type="button" className={`btn btn-info ${styles.customBtn}`}>
           About me
