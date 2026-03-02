@@ -1,0 +1,39 @@
+.aboutSection {
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.paragraph {
+  width: 380px;
+  word-break: break-all;
+  font-style: bold;
+  color: black;
+}
+button {
+  margin-right: 10px;
+}
+body {
+  font-family: Inter;
+}
+.aboutSection p {
+  font-size: 20px;
+}
+.header {
+  color: orangered;
+}
+.welcome {
+  color: black;
+}
+.customBtn:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: orangered;
+  color: white;
+  border: 1px orangered;
+}
+.customBtn {
+  padding: 8px;
+  width: 40%;
+
+  background-color: orangered;
+  color: white;
+  border: 1px orangered;
+}

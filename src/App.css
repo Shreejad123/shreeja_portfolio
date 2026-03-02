@@ -1,0 +1,12 @@
+body {
+  color: lightgrey;
+}
+.container {
+  display: flex; /* Enable flexbox */
+  gap: 20px; /* Space between columns */
+}
+
+.column {
+  flex: 1; /* Equal width columns */
+  padding: 20px;
+}

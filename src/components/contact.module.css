@@ -1,0 +1,13 @@
+.contactSection {
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+}
+.customBtn {
+  padding: 8px;
+  width: 20%;
+
+  background-color: orangered;
+  color: white;
+  border: 1px orangered;
+}
