@@ -33,27 +33,41 @@ function Contact() {
           </div>
         </div>
         <div className={styles.profile}>
+          <h2 className={styles.connect}>
+            <b>Let's connect</b>
+          </h2>
           <div className={styles.box}>
             <p>
-              <b>Call me</b> +919483350641
+              <b>Call me</b>
             </p>
+            <p>9483350641</p>
           </div>
           <div className={styles.box}>
             <p>
-              <b>Email me:</b> shreejadkotian00@gmail.com
+              <b>Email me:</b>
             </p>
+            <p>shreejadkotian00@gmail.com</p>
           </div>
           <div className={styles.box}>
             <p>
-              <b>Github</b> :https://github.com/Shreejad123
+              <b>Github</b> :{" "}
             </p>
+            <p>https://github.com/Shreejad123</p>
           </div>
           <div>
             <p>
-              <FaLinkedin></FaLinkedin>
-              <FaGithub />
-              <FaFacebookSquare />
-              <BsTwitterX />
+              <span className={styles.icons}>
+                <FaLinkedin></FaLinkedin>
+              </span>
+              <span className={styles.icons}>
+                <FaGithub />
+              </span>
+              <span className={styles.icons}>
+                <FaFacebookSquare />
+              </span>
+              <span className={styles.icons}>
+                <BsTwitterX />
+              </span>
             </p>
           </div>
         </div>

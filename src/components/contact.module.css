@@ -5,7 +5,7 @@
   margin-top: 100px;
   box-shadow: 5px 10px 15px rgba(227, 185, 185, 0.3);
   width: 50%;
-  height: 300px;
+  height: 400px;
 }
 .profile {
   text-align: center;
@@ -14,7 +14,7 @@
   margin-top: 100px;
   box-shadow: 5px 10px 15px rgba(227, 185, 185, 0.3);
   width: 70%;
-  height: 300px;
+  height: 400px;
   flex: 1; /* Equal width columns */
   padding: 20px;
 }
@@ -38,14 +38,22 @@
   gap: 20px; /* Adds 20px space between flex items (both row & column gaps) */
 }
 .box {
-  border: 1px solid;
-  height: 50px;
+  border: 2px orangered solid;
+  height: 70px;
   border-radius: 5px;
   margin-bottom: 20px;
   width: 400px;
+  margin-left: 50px;
 }
 .header {
   font-size: 25px;
   color: black;
   margin-left: 200px;
+}
+.connect {
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.icons {
+  margin-right: 20px;
 }
