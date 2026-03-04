@@ -1,5 +1,4 @@
 import { IoMdHome } from "react-icons/io";
-import { FaPhone } from "react-icons/fa6";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi";
 import { IoPerson } from "react-icons/io5";

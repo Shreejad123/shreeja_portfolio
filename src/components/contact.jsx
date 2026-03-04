@@ -85,8 +85,7 @@ function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
-                  <FaLinkedin />
+                  <FaLinkedin className={styles.iconsContainer} />
                 </Link>
               </span>
               <span className={styles.icons}>
@@ -95,8 +94,7 @@ function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
-                  <FaFacebookSquare />
+                  <FaFacebookSquare className={styles.iconsContainer} />
                 </Link>
               </span>
               <span className={styles.icons}>
@@ -105,8 +103,7 @@ function Contact() {
                   target="blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
-                  <BsTwitterX />
+                  <BsTwitterX className={styles.iconsContainer} />
                 </Link>
               </span>
               <span className={styles.icons}>
@@ -115,8 +112,7 @@ function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
-                  <FaGithub />
+                  <FaGithub className={styles.iconsContainer} />
                 </Link>
               </span>
             </p>

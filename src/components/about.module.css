@@ -1,39 +1,26 @@
-.aboutSection {
-  margin-left: 100px;
-  margin-top: 20px;
+.card {
+  border: 1px solid #334155; /* Soft border */
+  border-radius: 16px; /* Smooth rounded corners */
+  padding: 30px;
+  background-color: #0f172a;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+  width: 40%;
+  margin-right: 20px;
 }
-.paragraph {
-  width: 650px;
-  word-break: break-all;
-  font-style: bold;
-  color: black;
+
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #3b82f6; /* Accent border */
+  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.25);
 }
-button {
-  margin-right: 10px;
-}
-body {
-  font-family: Inter;
-}
-.aboutSection p {
-  font-size: 20px;
+
+.section {
+  display: flex;
+  margin-left: 200px;
 }
 .header {
-  color: orangered;
-}
-.welcome {
-  color: black;
-}
-.customBtn:hover {
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-  background-color: orangered;
-  color: white;
-  border: 1px orangered;
-}
-.customBtn {
-  padding: 8px;
-  width: 40%;
-
-  background-color: orangered;
-  color: white;
-  border: 1px orangered;
+  margin-left: 200px;
+  margin-top: 30px;
 }

@@ -1,8 +1,6 @@
 .contactSection {
   text-align: center;
-  color: black;
   margin-top: 50px;
-
   box-shadow: 5px 10px 15px rgba(227, 185, 185, 0.3);
   margin-left: 0;
   width: 50%;
@@ -11,7 +9,6 @@
 
 .profile {
   text-align: center;
-  color: black;
   margin: auto;
   margin-top: 50px;
   box-shadow: 5px 10px 15px rgba(227, 185, 185, 0.3);
@@ -23,10 +20,6 @@
 .customBtn {
   padding: 8px;
   width: 40%;
-
-  background-color: orangered;
-  color: white;
-  border: 1px orangered;
 }
 .contact input {
   margin-bottom: 20px;
@@ -36,11 +29,10 @@
 }
 
 .container {
-  display: flex; /* Turns the container into a flexbox layout */
-  gap: 20px; /* Adds 20px space between flex items (both row & column gaps) */
+  display: flex;
+  gap: 20px;
 }
 .box {
-  border: 2px orangered solid;
   height: 70px;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -49,7 +41,6 @@
 }
 .header {
   font-size: 25px;
-  color: black;
   margin-left: 200px;
 }
 .connect {

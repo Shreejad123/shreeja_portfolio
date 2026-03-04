@@ -1,0 +1,26 @@
+.homeSection {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.paragraph {
+  width: 650px;
+  word-break: break-all;
+  font-style: bold;
+}
+button {
+  margin-right: 10px;
+}
+body {
+  font-family: Inter;
+}
+.homeSection p {
+  font-size: 20px;
+}
+
+.customBtn:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.customBtn {
+  padding: 8px;
+  width: 40%;
+}

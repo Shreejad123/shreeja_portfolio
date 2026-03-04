@@ -5,19 +5,13 @@
 .icons {
   margin-right: 35px;
   font-size: 22px;
-  color: black;
   font-weight: 600;
 }
 .customBtn {
   width: 10%;
 
-  background-color: orangered;
   color: white;
-  border: 1px orangered;
 }
 .customBtn:hover {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-  background-color: orangered;
-  color: white;
-  border: 1px orangered;
 }
