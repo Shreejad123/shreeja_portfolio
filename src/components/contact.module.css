@@ -1,20 +1,22 @@
 .contactSection {
   text-align: center;
   color: black;
-  margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
+
   box-shadow: 5px 10px 15px rgba(227, 185, 185, 0.3);
+  margin-left: 0;
   width: 50%;
-  height: 400px;
+  height: 450px;
 }
+
 .profile {
   text-align: center;
   color: black;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
   box-shadow: 5px 10px 15px rgba(227, 185, 185, 0.3);
-  width: 70%;
-  height: 400px;
+  width: 40%;
+  height: 450px;
   flex: 1; /* Equal width columns */
   padding: 20px;
 }
@@ -56,4 +58,16 @@
 }
 .icons {
   margin-right: 20px;
+}
+
+.formfield {
+  display: flex;
+  margin-left: 110px;
+  margin-bottom: 20px;
+}
+.contact input {
+  width: 50%;
+}
+.contactHeader {
+  margin-top: 20px;
 }
