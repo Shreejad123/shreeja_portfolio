@@ -1,7 +1,9 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./home.module.css";
+import { useNavigate } from "react-router-dom";
 function Home() {
+  const navigate = useNavigate();
   return (
     <>
       <div className={styles.homeSection}>
@@ -24,7 +26,11 @@ function Home() {
           modern frontend practices, with strong problem-solving and
           communication skills.
         </p>
-        <button type="button" className={`btn btn-info ${styles.customBtn}`}>
+        <button
+          type="button"
+          onClick={() => navigate("/about")}
+          className={`btn btn-info ${styles.customBtn}`}
+        >
           About me
         </button>
         <button type="button" className={`btn btn-info ${styles.customBtn}`}>

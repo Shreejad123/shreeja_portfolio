@@ -8,7 +8,8 @@
   padding: 20px;
 }
 body {
-  background-color: var(--bg-main);
-  color: var(--text-primary);
-  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+  color: black;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }

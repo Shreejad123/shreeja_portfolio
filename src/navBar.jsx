@@ -23,7 +23,7 @@ function NavBar() {
           <GiSkills />
           &nbsp; Skills
         </span>
-        <span className={styles.icons}>
+        <span className={styles.icons} onClick={() => navigate("/about")}>
           <IoPerson />
           &nbsp; About me
         </span>

@@ -1,6 +1,6 @@
 import shreeja from "./assets/shreeja.png";
 import styles from "./image.module.css";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 function Image() {
   return (
     <>

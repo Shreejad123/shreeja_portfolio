@@ -2,13 +2,16 @@
   border: 1px solid #334155; /* Soft border */
   border-radius: 16px; /* Smooth rounded corners */
   padding: 30px;
-  background-color: #0f172a;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   transition: all 0.3s ease;
-  width: 40%;
+  width: 80%;
+  height: 50%;
   margin-right: 20px;
+  display: flex;
 }
-
+.image {
+  height: 150px;
+}
 /* Hover Effect */
 .card:hover {
   transform: translateY(-6px);
@@ -17,10 +20,25 @@
 }
 
 .section {
-  display: flex;
   margin-left: 200px;
 }
 .header {
   margin-left: 200px;
   margin-top: 30px;
+}
+.cards {
+  margin-top: 50px;
+  display: flex;
+}
+.techstack {
+  margin-left: 50px;
+}
+/*
+Source - https://stackoverflow.com/a/77674001
+Posted by HeRo
+Retrieved 2026-03-05, License - CC BY-SA 4.0
+*/
+
+ul {
+  list-style: none;
 }

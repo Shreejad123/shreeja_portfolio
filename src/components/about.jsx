@@ -1,4 +1,11 @@
 import styles from "./about.module.css";
+import aboutImage from "C:/Users/DELL/OneDrive/Desktop/Portfolio/porfolio/src/assets/about.png";
+import { FaCheckCircle } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 function About() {
   return (
     <>
@@ -16,19 +23,75 @@ function About() {
             JavaScript (ES6+). As a self-taught programmer, I am driven by
             curiosity, continuous learning, and a strong desire to solve
             real-world problems through clean and efficient code.
+            <img
+              className={styles.image}
+              src={aboutImage}
+              alt="This is a car image"
+            ></img>
           </div>
-          <div className={styles.card}>
+
+          <div className={styles.cards}>
             <ul>
               What I Focus On
-              <li> Building responsive and scalable web applications</li>
-              <li>Creating reusable and maintainable UI components</li>
-              <li>Writing clean, readable, and efficient code</li>
               <li>
+                {" "}
+                <FaCheckCircle
+                  style={{ marginRight: 5, color: "green" }}
+                ></FaCheckCircle>
+                Building responsive and scalable web applications
+              </li>
+              <li>
+                {" "}
+                <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
+                Creating reusable and maintainable UI components
+              </li>
+              <li>
+                {" "}
+                <FaCheckCircle
+                  style={{ marginRight: 5, color: "green" }}
+                ></FaCheckCircle>
+                Writing clean, readable, and efficient code
+              </li>
+              <li>
+                {" "}
+                <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
                 Optimizing frontend performance • Ensuring cross-browser
                 compatibility
               </li>
-              <li>Delivering smooth and user-friendly experiences</li>
+              <li>
+                {" "}
+                <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
+                Delivering smooth and user-friendly experiences
+              </li>
             </ul>
+            <div className={styles.techstack}>
+              <h5>Technologies I Work With</h5>
+              <ul>
+                <li>
+                  <FaReact style={{ color: "green", marginRight: 10 }} />
+                  React.js
+                </li>
+                <li>
+                  <IoLogoJavascript
+                    style={{ color: "green", marginRight: 10 }}
+                  />
+                  JavaScript (ES6+)
+                </li>
+                <li>
+                  <FaHtml5 style={{ color: "green", marginRight: 10 }} />
+                  HTML5
+                </li>
+                <li>
+                  <FaCss3Alt style={{ color: "green", marginRight: 10 }} />
+                  CSS3
+                </li>
+
+                <li>
+                  <FaGithub style={{ color: "green", marginRight: 10 }} />
+                  Git / GitHub
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
