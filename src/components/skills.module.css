@@ -1,0 +1,6 @@
+.container {
+  display: flex;
+}
+.header {
+  margin-left: 200px;
+}

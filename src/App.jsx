@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Hero from "./components/hero";
 import Home from "./components/home";
 import NavBar from "./navBar";
 import Image from "./image";
