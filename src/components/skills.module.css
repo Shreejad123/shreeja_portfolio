@@ -1,6 +1,31 @@
+.containerSection {
+  margin-top: 20px;
+}
 .container {
   display: flex;
 }
 .header {
   margin-left: 200px;
+}
+.icons {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  width: 25%;
+  height: 120px;
+
+  font-size: 30px;
+  color: "1E90FF";
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 3px;
+  border-radius: 5px;
+  display: flex;
+
+  align-items: center;
+  place-items: center;
+}
+.icons:hover {
+  transform: translateY(-2px);
+  border-color: #3b82f6; /* Accent border */
+  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.25);
 }

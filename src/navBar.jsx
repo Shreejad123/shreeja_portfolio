@@ -19,7 +19,7 @@ function NavBar() {
           <AiOutlineFundProjectionScreen />
           &nbsp; Projects
         </span>
-        <span className={styles.icons}>
+        <span className={styles.icons} onClick={() => navigate("/skills")}>
           <GiSkills />
           &nbsp; Skills
         </span>

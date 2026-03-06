@@ -40,6 +40,8 @@
   margin-bottom: 20px;
   width: 400px;
   margin-left: 50px;
+  border: 2px #1e90ff solid;
+  padding-top: 5px;
 }
 .header {
   font-size: 25px;

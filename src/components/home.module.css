@@ -6,10 +6,9 @@
   width: 650px;
   word-break: break-all;
   font-style: bold;
+  line-height: 2;
 }
-button {
-  margin-right: 10px;
-}
+
 body {
   font-family: Inter;
 }
@@ -21,6 +20,6 @@ body {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 .customBtn {
-  padding: 8px;
   width: 40%;
+  margin-right: 10px;
 }
