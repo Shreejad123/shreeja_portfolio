@@ -1,5 +1,5 @@
 import styles from "./about.module.css";
-import aboutImage from "C:/Users/DELL/OneDrive/Desktop/Portfolio/porfolio/src/assets/about.png";
+import aboutImage from "../assets/about.png";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
