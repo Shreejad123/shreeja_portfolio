@@ -1,41 +1,109 @@
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./home.module.css";
 import { useNavigate } from "react-router-dom";
+import { FaRegCheckCircle } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa6";
 function Home() {
   const navigate = useNavigate();
   return (
     <>
       <div className={styles.homeSection}>
-        <p className={styles.welcome}>
-          <b>Welcome to my site</b>
-        </p>
-
         <h2 className={styles.header}>
           <b>Hi, I’m Shreeja D Kotian, </b>
         </h2>
         <p className={styles.paragraph}>
           <b>Frontend Web Developer</b>
         </p>
-        <p className={styles.paragraph}>
-          Frontend Developer with 3+ years of IT experience and 1+ year
-          specializing in React.js development. Proficient in JavaScript (ES6+),
-          HTML5, and CSS3, with experience building responsive web applications
-          and REST <br></br>API integrations. <br></br>A self-taught developer
-          passionate about clean code, UI performance <br></br>optimization, and
-          modern frontend practices, with strong problem-solving and
-          communication skills.
+        <p className={styles.lines}>
+          <ul>
+            <li>
+              <FaRegCheckCircle
+                style={{
+                  color: "#1E90FF",
+                }}
+              />
+              &nbsp; 3+ years of experience in IT, specializing in React.js
+            </li>
+            <li>
+              <FaRegCheckCircle
+                style={{
+                  color: "#1E90FF",
+                }}
+              />{" "}
+              &nbsp; Strong in JavaScript (ES6+), HTML5, and CSS3
+            </li>{" "}
+            <li>
+              <FaRegCheckCircle
+                style={{
+                  color: "#1E90FF",
+                }}
+              />{" "}
+              &nbsp; Experienced in building responsive web applications & REST
+              APIs
+            </li>
+            <FaRegCheckCircle
+              style={{
+                color: "#1E90FF",
+              }}
+            />{" "}
+            &nbsp; Focused on performance optimization and clean UI design
+            <li />
+          </ul>
         </p>
-        <button
-          type="button"
-          onClick={() => navigate("/about")}
-          className={`btn btn-info ${styles.customBtn}`}
-        >
-          About me
-        </button>
-        <button type="button" className={`btn btn-info ${styles.customBtn}`}>
-          See my Projects
-        </button>
+        <span className={styles.lines}>
+          {" "}
+          <FaReact
+            style={{
+              fontSize: 45,
+              color: "#1E90FF",
+              marginLeft: 30,
+              marginTop: 10,
+              marginRight: 3,
+            }}
+          />
+          <IoLogoJavascript
+            style={{
+              fontSize: 45,
+              color: "#F0E68C",
+              marginLeft: 20,
+              marginTop: 10,
+              marginRight: 3,
+            }}
+          />
+          <FaHtml5
+            style={{
+              fontSize: 45,
+              color: "#FF4500",
+              marginLeft: 20,
+              marginTop: 10,
+              marginRight: 3,
+            }}
+          />{" "}
+          <FaCss3Alt
+            style={{
+              fontSize: 40,
+              marginRight: 3,
+              marginLeft: 20,
+              marginTop: 10,
+              color: "#1E90FF",
+            }}
+          />
+        </span>
+        <div className={styles.button}>
+          <button
+            type="button"
+            onClick={() => navigate("/about")}
+            className={`btn btn-info ${styles.customBtn}`}
+          >
+            About me
+          </button>
+          <button type="button" className={`btn btn-info ${styles.customBtn}`}>
+            See my Projects
+          </button>
+        </div>
       </div>
     </>
   );

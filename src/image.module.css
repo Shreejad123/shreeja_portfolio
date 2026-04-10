@@ -4,6 +4,17 @@
   border-radius: 50%;
   margin-left: 50px;
   margin-top: 60px;
+  animation: 1.5s fadeInUp;
+}
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }
 .icon {
   margin-left: 180px;

@@ -1,25 +1,53 @@
 .homeSection {
-  margin-left: 100px;
   margin-top: 50px;
+  margin-left: 50px;
+}
+.header {
+  margin-left: 50px;
+  animation: 1.5s fadeInUp;
 }
 .paragraph {
-  width: 650px;
   word-break: break-all;
   font-style: bold;
   line-height: 2;
+  margin-left: 50px;
+  animation: 1.5s fadeInUp;
 }
-
+.paragraphs {
+  line-height: 2;
+  animation: 1.5s fadeInUp;
+}
 body {
   font-family: Inter;
 }
 .homeSection p {
   font-size: 20px;
+  animation: 1.5s fadeInUp;
 }
-
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+.lines {
+  animation: 1.5s fadeInUp;
+  line-height: 2;
+}
 .customBtn:hover {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 .customBtn {
   width: 40%;
   margin-right: 10px;
+  margin-bottom: 20px;
+}
+.button {
+  margin-top: 20px;
+  margin-left: 20px;
+  animation: 1.5s fadeInUp;
 }
