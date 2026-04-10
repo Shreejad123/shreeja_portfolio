@@ -1,11 +1,22 @@
 .containerSection {
   margin-top: 20px;
+  animation: 1.5s fadeInUp;
 }
 .container {
   display: flex;
 }
 .header {
   margin-left: 200px;
+}
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }
 .icons {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
