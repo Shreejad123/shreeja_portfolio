@@ -4,7 +4,9 @@
 }
 .image {
   width: 100%;
+  max-width: 500px;
   border-radius: 5px;
+  margin-top: 5%;
 }
 .custombtn {
   padding: 20px;

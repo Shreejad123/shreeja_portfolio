@@ -2,6 +2,11 @@ import Projects from "./projects.jsx";
 import styles from "./project.module.css";
 import dashboard from "../Images/dashboard.png";
 import Home from "../Images/home.png";
+import viewDetails from "../Images/viewDetails.png";
+import darkMode from "../Images/darkMode.png";
+import statsCard from "../Images/statsCard.png";
+import surgeryTable from "../Images/surgeryTable.png";
+import products from "../Images/products.png";
 function Project() {
   const projectList = [
     {
@@ -12,7 +17,7 @@ function Project() {
       tech: "React, REST API, Bootstrap",
       github: "https://github.com/Shreejad123/healthlogix",
       liveDemo: "https://healthlogix-7pr3.vercel.app/",
-      img: dashboard,
+      img: [dashboard, darkMode, statsCard, surgeryTable],
     },
 
     {
@@ -23,7 +28,7 @@ function Project() {
       tech: "React, JavaScript, CSS",
       github: "https://github.com/Shreejad123/E-COMMERCE-PROJECT",
       liveDemo: "https://e-commerce-project-ec1o.vercel.app/",
-      img: Home,
+      img: [Home, products, surgeryTable],
     },
   ];
 
@@ -33,7 +38,9 @@ function Project() {
 
       <div className={styles.container}>
         {projectList.map((project) => (
-          <Projects key={project.id} List={project}></Projects>
+          <div key={project.id}>
+            <Projects List={project} />
+          </div>
         ))}
       </div>
     </section>
