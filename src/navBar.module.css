@@ -1,6 +1,7 @@
 .iconsContainer {
   margin: 40px;
   text-align: center;
+  cursor: pointer;
 }
 .icons {
   margin-right: 35px;

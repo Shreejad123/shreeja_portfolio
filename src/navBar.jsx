@@ -4,6 +4,7 @@ import { GiSkills } from "react-icons/gi";
 import { IoPerson } from "react-icons/io5";
 import styles from "./navBar.module.css";
 import { useNavigate } from "react-router-dom";
+import Projects from "./components/project";
 
 function NavBar() {
   const navigate = useNavigate();
@@ -15,7 +16,7 @@ function NavBar() {
           &nbsp; Home
         </span>
 
-        <span className={styles.icons}>
+        <span className={styles.icons} onClick={() => navigate("/projects")}>
           <AiOutlineFundProjectionScreen />
           &nbsp; Projects
         </span>
