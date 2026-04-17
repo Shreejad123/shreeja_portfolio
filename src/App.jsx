@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <NavBar />
+      <div className="containers"></div>
       <div className="container">
         <Home className="column" />
         <Image className="column"></Image>

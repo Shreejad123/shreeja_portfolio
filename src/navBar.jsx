@@ -5,7 +5,7 @@ import { IoPerson } from "react-icons/io5";
 import styles from "./navBar.module.css";
 import { useNavigate } from "react-router-dom";
 import Projects from "./components/project";
-
+import ThemeToggleButton from "./components/themeTogglebutton";
 function NavBar() {
   const navigate = useNavigate();
   return (
@@ -34,6 +34,7 @@ function NavBar() {
         >
           &nbsp; Contact me
         </button>
+        <ThemeToggleButton className={styles.icons} />
       </p>
     </>
   );

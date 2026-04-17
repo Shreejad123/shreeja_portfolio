@@ -6,15 +6,17 @@ import Contact from "./components/contact.jsx";
 import About from "./components/about.jsx";
 import Skills from "./components/skills.jsx";
 import Project from "./components/project.jsx";
-
+import { ThemeProvider } from "./context/ThemeContext";
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <Routes>
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/" element={<App />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/skills" element={<Skills />} />
-      <Route path="/projects" element={<Project />} />
-    </Routes>
+    <ThemeProvider>
+      <Routes>
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<App />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Project />} />
+      </Routes>
+    </ThemeProvider>
   </BrowserRouter>,
 );

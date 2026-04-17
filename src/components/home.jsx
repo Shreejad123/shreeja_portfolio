@@ -25,7 +25,7 @@ function Home() {
                   color: "#1E90FF",
                 }}
               />
-              &nbsp; 3+ years of experience in IT, specializing in React.js
+              &nbsp; Around 1 year of experience in IT, specializing in React.js
             </li>
             <li>
               <FaRegCheckCircle

@@ -1,15 +1,37 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+  --label-color: black;
+}
+
+[data-theme="dark"] {
+  --background-color: #242424;
+  --text-color: white;
+  --label-color: white;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+.containers {
+  display: flex;
+  gap: 40px;
+}
 .container {
-  display: flex; /* Enable flexbox */
-  gap: 20px; /* Space between columns */
+  display: flex;
+  gap: 20px;
 }
 
 .column {
-  flex: 1; /* Equal width columns */
+  flex: 1;
   padding: 20px;
 }
-body {
-  background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
-  color: black;
-  margin: 0;
-  font-family: Arial, sans-serif;
+.themeToggle {
+  display: inline-block;
 }
