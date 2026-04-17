@@ -5,6 +5,12 @@
   width: 90%;
   height: 100%;
   margin-left: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+.container:hover {
+  transform: translateY(-6px);
+  border-color: #3b82f6; /* Accent border */
+  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.25);
 }
 .header {
   text-align: center;

@@ -1,6 +1,10 @@
 .homeSection {
   margin-top: 50px;
   margin-left: 50px;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  border-radius: 8px;
 }
 .header {
   margin-left: 50px;
@@ -23,6 +27,11 @@ body {
 .homeSection p {
   font-size: 20px;
   animation: 1.5s fadeInUp;
+}
+.homeSection:hover {
+  transform: translateY(-6px);
+  border-color: #3b82f6; /* Accent border */
+  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.25);
 }
 @keyframes fadeInUp {
   0% {
