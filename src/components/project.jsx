@@ -7,6 +7,7 @@ import darkMode from "../Images/darkMode.png";
 import statsCard from "../Images/statsCard.png";
 import surgeryTable from "../Images/surgeryTable.png";
 import products from "../Images/products.png";
+import NavBar from "../navBar";
 function Project() {
   const projectList = [
     {
@@ -34,6 +35,7 @@ function Project() {
 
   return (
     <section>
+      <NavBar />
       <h2 className={styles.header}>Projects</h2>
 
       <div className={styles.container}>

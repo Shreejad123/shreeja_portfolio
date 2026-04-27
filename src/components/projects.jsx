@@ -1,5 +1,6 @@
 import styles from "./projects.module.css";
 import { useState, useEffect } from "react";
+
 const Projects = ({ List }) => {
   const [index, setIndex] = useState(0);
 

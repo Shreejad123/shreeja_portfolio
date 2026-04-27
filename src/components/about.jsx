@@ -6,9 +6,11 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import NavBar from "../navBar";
 function About() {
   return (
     <>
+      <NavBar />
       <div className={styles.container}>
         <h1 className={styles.header}>About Me</h1>
         <p className={styles.header}>

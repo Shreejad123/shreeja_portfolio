@@ -8,9 +8,11 @@ import { SiNextdotjs } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { AiOutlineApi } from "react-icons/ai";
 import { SiRedux } from "react-icons/si";
+import NavBar from "../navBar";
 function Skills() {
   return (
     <>
+      <NavBar />
       <div className={styles.containerSection}>
         <h1 className={styles.header}>Skills</h1>
         <p className={styles.header}>

@@ -11,7 +11,7 @@ function NavBar() {
   return (
     <>
       <p className={styles.iconsContainer}>
-        <span className={styles.icons}>
+        <span className={styles.icons} onClick={() => navigate("/")}>
           <IoMdHome />
           &nbsp; Home
         </span>
