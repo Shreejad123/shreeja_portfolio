@@ -1,5 +1,5 @@
 .iconsContainer {
-  margin: 40px;
+  margin: 20px;
   text-align: center;
   cursor: pointer;
 }
@@ -10,7 +10,6 @@
 }
 .customBtn {
   width: 10%;
-
   color: white;
 }
 .customBtn:hover {

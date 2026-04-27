@@ -34,7 +34,9 @@ function NavBar() {
         >
           &nbsp; Contact me
         </button>
-        <ThemeToggleButton className={styles.icons} />
+        <span className={styles.icons}>
+          <ThemeToggleButton className={styles.icons} />
+        </span>
       </p>
     </>
   );

@@ -5,16 +5,15 @@ import Home from "./components/home";
 import NavBar from "./navBar";
 import Image from "./image";
 
-import "./App.css";
+import styles from "./App.module.css";
 
 function App() {
   return (
     <>
       <NavBar />
-      <div className="containers"></div>
-      <div className="container">
-        <Home className="column" />
-        <Image className="column"></Image>
+      <div className={styles.container}>
+        <Home className={styles.column} />
+        <Image className={styles.column}></Image>
       </div>
     </>
   );

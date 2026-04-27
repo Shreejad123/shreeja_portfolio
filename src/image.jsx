@@ -4,14 +4,12 @@ import styles from "./image.module.css";
 function Image() {
   return (
     <>
-      <div>
-        <img
-          className={styles.image}
-          src={shreeja}
-          alt="This is a car image"
-        ></img>
-        <br></br>
-      </div>
+      <img
+        className={styles.image}
+        src={shreeja}
+        alt="This is a car image"
+      ></img>
+      <br></br>
     </>
   );
 }

@@ -100,7 +100,11 @@ function Home() {
           >
             About me
           </button>
-          <button type="button" className={`btn btn-info ${styles.customBtn}`}>
+          <button
+            type="button"
+            className={`btn btn-info ${styles.customBtn}`}
+            onClick={() => navigate("/projects")}
+          >
             See my Projects
           </button>
         </div>

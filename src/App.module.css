@@ -19,19 +19,8 @@ body {
     background-color 0.3s ease,
     color 0.3s ease;
 }
-.containers {
-  display: flex;
-  gap: 40px;
-}
-.container {
-  display: flex;
-  gap: 20px;
-}
 
-.column {
-  flex: 1;
-  padding: 20px;
-}
-.themeToggle {
-  display: inline-block;
+.container {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
 }
