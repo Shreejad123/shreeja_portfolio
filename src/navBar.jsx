@@ -28,12 +28,12 @@ function NavBar() {
           <IoPerson />
           &nbsp; About me
         </span>
-        <button
+        {/* <button
           className={`btn btn-info ${styles.customBtn}`}
           onClick={() => navigate("/contact")}
         >
           &nbsp; Contact me
-        </button>
+        </button> */}
         <span className={styles.icons}>
           <ThemeToggleButton className={styles.icons} />
         </span>
