@@ -1,9 +1,6 @@
 .switch {
   font-size: 17px;
   position: relative;
-
-  margin-left: auto;
-  display: inline-block;
 }
 .theme {
   display: flex;
@@ -17,7 +14,7 @@
   height: 1.8em;
   position: absolute;
   cursor: pointer;
-  inset: 0;
+
   background-color: grey;
   border-radius: 50px;
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);

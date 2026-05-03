@@ -15,7 +15,6 @@ function NavBar() {
           <IoMdHome />
           &nbsp; Home
         </span>
-
         <span className={styles.icons} onClick={() => navigate("/projects")}>
           <AiOutlineFundProjectionScreen />
           &nbsp; Projects
@@ -34,9 +33,7 @@ function NavBar() {
         >
           &nbsp; Contact me
         </button> */}
-        <span className={styles.icons}>
-          <ThemeToggleButton className={styles.icons} />
-        </span>
+        <span className={styles.icons}></span>
       </p>
     </>
   );
