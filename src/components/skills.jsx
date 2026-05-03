@@ -15,7 +15,7 @@ function Skills() {
       <NavBar />
       <div className={styles.containerSection}>
         <h1 className={styles.header}>Skills</h1>
-        <p className={styles.header}>
+        <p className={styles.headers}>
           Here are some of the Technologies and tools I work with
         </p>
         <div className={styles.container}>
