@@ -12,7 +12,7 @@ function Home() {
     <>
       <div className={styles.homeSection}>
         <h2 className={styles.header}>
-          <b>Hi, I’m Shreeja D Kotian, </b>
+          <b>Hi, I’m Shreeja D Kotian </b>
         </h2>
         <p className={styles.paragraph}>
           <b>Frontend Web Developer</b>
