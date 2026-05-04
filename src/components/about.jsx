@@ -7,6 +7,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import NavBar from "../navBar";
+import { TiStar } from "react-icons/ti";
 function About() {
   return (
     <>
@@ -19,10 +20,18 @@ function About() {
         </p>
         <div className={styles.section}>
           <div className={styles.card}>
-            Frontend Developer with around 1 year of experience in React.js and
-            JavaScript (ES6+), along with 3+ years of experience in QA
-            Automation. Self-taught, curious, and focused on clean, efficient
-            solution
+            <ul>
+              <li>
+                <TiStar size={20} style={{ marginRight: 5, color: "green" }} />
+                Frontend Developer with ~1 year of experience in React.js and
+                JavaScript, backed by 3+ years in QA Automation.
+              </li>
+              <li>
+                <TiStar size={20} style={{ marginRight: 5, color: "green" }} />I
+                build responsive web applications with a focus on <br></br>
+                performance, clean UI, and user experience.
+              </li>
+            </ul>
             <img
               className={styles.image}
               src={aboutImage}
@@ -32,37 +41,45 @@ function About() {
 
           <div className={styles.cards}>
             <ul>
-              What I Focus On
-              <li>
-                {" "}
-                <FaCheckCircle
-                  style={{ marginRight: 5, color: "green" }}
-                ></FaCheckCircle>
-                Building responsive and scalable web applications
-              </li>
-              <li>
-                {" "}
-                <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
-                Creating reusable and maintainable UI components
-              </li>
-              <li>
-                {" "}
-                <FaCheckCircle
-                  style={{ marginRight: 5, color: "green" }}
-                ></FaCheckCircle>
-                Writing clean, readable, and efficient code
-              </li>
-              <li>
-                {" "}
-                <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
-                Optimizing frontend performance • Ensuring cross-browser
-                compatibility
-              </li>
-              <li>
-                {" "}
-                <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
-                Delivering smooth and user-friendly experiences
-              </li>
+              <h4 className={styles.headers}>
+                <b>What I Focus On</b>
+              </h4>
+              <div className={styles.paragraph}>
+                <li>
+                  {" "}
+                  <FaCheckCircle
+                    style={{ marginRight: 5, color: "green" }}
+                  ></FaCheckCircle>
+                  Building responsive web applications
+                </li>
+                <li>
+                  {" "}
+                  <FaCheckCircle
+                    style={{ marginRight: 5, color: "green" }}
+                  ></FaCheckCircle>
+                  Creating user-friendly interfaces
+                </li>
+                <li>
+                  {" "}
+                  <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
+                  Developing reusable UI components
+                </li>
+                <li>
+                  {" "}
+                  <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
+                  Writing clean and maintainable code
+                </li>
+                <li>
+                  {" "}
+                  <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
+                  Delivering seamless user experiences
+                </li>
+                <li>
+                  {" "}
+                  <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
+                  Optimizing performance & cross-browser compatibility
+                </li>
+              </div>
             </ul>
           </div>
         </div>

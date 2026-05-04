@@ -4,11 +4,11 @@
   padding: 30px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   transition: all 0.3s ease;
-  width: 80%;
+  width: 60%;
   height: 40%;
 
   display: flex;
-  line-height: 2;
+  line-height: 2.5;
   animation: 1.5s fadeInUp;
   margin-top: 50px;
 }
@@ -17,6 +17,15 @@
 }
 .cards {
   margin: auto;
+}
+.paragraph {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.headers {
+  margin-bottom: 50px;
+  text-align: center;
 }
 @keyframes fadeInUp {
   0% {

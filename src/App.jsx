@@ -14,8 +14,7 @@ function App() {
         <Home className={styles.column} />
         <div className={styles.imageContainer}>
           {" "}
-          <Image className={styles.column}></Image>{" "}
-          <ThemeToggleButton className={styles.icons} />
+          <Image className={styles.Image}></Image>{" "}
         </div>
       </div>
     </>

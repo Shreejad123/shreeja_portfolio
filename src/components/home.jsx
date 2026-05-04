@@ -62,6 +62,7 @@ function Home() {
               marginLeft: 30,
               marginTop: 10,
               marginRight: 3,
+              marginBottom: 10,
             }}
           />
           <IoLogoJavascript
@@ -71,6 +72,7 @@ function Home() {
               marginLeft: 20,
               marginTop: 10,
               marginRight: 3,
+              marginBottom: 10,
             }}
           />
           <FaHtml5
@@ -80,6 +82,7 @@ function Home() {
               marginLeft: 20,
               marginTop: 10,
               marginRight: 3,
+              marginBottom: 10,
             }}
           />{" "}
           <FaCss3Alt
@@ -89,6 +92,7 @@ function Home() {
               marginLeft: 20,
               marginTop: 10,
               color: "#1E90FF",
+              marginBottom: 10,
             }}
           />
         </span>
