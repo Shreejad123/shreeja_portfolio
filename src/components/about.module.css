@@ -6,7 +6,6 @@
   transition: all 0.3s ease;
   width: 60%;
   height: 40%;
-
   display: flex;
   line-height: 2.5;
   animation: 1.5s fadeInUp;
@@ -76,5 +75,12 @@ ul {
     display: grid;
     width: 95%;
     grid-template-columns: 1fr;
+  }
+  .paragraph {
+    display: flex;
+    flex-direction: column;
+  }
+  .headers {
+    text-align: left;
   }
 }

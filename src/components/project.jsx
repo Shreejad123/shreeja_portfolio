@@ -2,6 +2,7 @@ import Projects from "./projects.jsx";
 import styles from "./project.module.css";
 import dashboard from "../Images/dashboard.png";
 import Home from "../Images/home.png";
+import errorPage from "../Images/errorPage.png";
 import viewDetails from "../Images/viewDetails.png";
 import darkMode from "../Images/darkMode.png";
 import statsCard from "../Images/statsCard.png";
@@ -29,7 +30,7 @@ function Project() {
       tech: "React, JavaScript, CSS",
       github: "https://github.com/Shreejad123/E-COMMERCE-PROJECT",
       liveDemo: "https://e-commerce-project-ec1o.vercel.app/",
-      img: [Home, products, surgeryTable],
+      img: [Home, products, errorPage, viewDetails],
     },
   ];
 

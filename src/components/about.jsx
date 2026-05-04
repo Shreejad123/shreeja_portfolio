@@ -8,11 +8,25 @@ import { FaCss3Alt } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import NavBar from "../navBar";
 import { TiStar } from "react-icons/ti";
+import { useInView } from "react-intersection-observer";
+
 function About() {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
   return (
     <>
       <NavBar />
-      <div className={styles.container}>
+      <div
+        ref={ref}
+        className={styles.container}
+        style={{
+          opacity: inView ? 1 : 0,
+          transform: inView ? "translateY(0)" : "translateY(20px)",
+          transition: "all 0.8s ease-out",
+        }}
+      >
         <h1 className={styles.header}>About Me</h1>
         <p className={styles.header}>
           Passionate Frontend Developer crafting modern and scalable web
