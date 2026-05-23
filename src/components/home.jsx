@@ -3,52 +3,26 @@ import styles from "./home.module.css";
 import { useNavigate } from "react-router-dom";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
+import { PiHandWavingDuotone } from "react-icons/pi";
 function Home() {
   const navigate = useNavigate();
   return (
     <>
       <div className={styles.homeSection}>
+        <p>
+          <PiHandWavingDuotone className={styles.handicon} /> Hi, &nbsp;I'm
+        </p>
         <h2 className={styles.header}>
-          <b>Hi, I’m Shreeja D Kotian </b>
+          <b>
+            <br></br>Shreeja D Kotian
+          </b>
         </h2>
         <p className={styles.paragraph}>
           <b>Frontend Web Developer</b>
         </p>
         <p className={styles.lines}>
-          <ul>
-            <li>
-              <FaRegCheckCircle
-                style={{
-                  color: "#1E90FF",
-                }}
-              />
-              &nbsp; Around 1 year of experience in IT, specializing in React.js
-            </li>
-            <li>
-              <FaRegCheckCircle
-                style={{
-                  color: "#1E90FF",
-                }}
-              />{" "}
-              &nbsp; Strong in JavaScript (ES6+), HTML5, and CSS3
-            </li>{" "}
-            <li>
-              <FaRegCheckCircle
-                style={{
-                  color: "#1E90FF",
-                }}
-              />{" "}
-              &nbsp; Experienced in building responsive web applications & REST
-              APIs
-            </li>
-            <FaRegCheckCircle
-              style={{
-                color: "#1E90FF",
-              }}
-            />{" "}
-            &nbsp; Focused on performance optimization and clean UI design
-            <li />
-          </ul>
+          I build responsive,accesible and performat web applications <br></br>
+          using modern React Ecosystem and clean UI/UX
         </p>
         <div className={styles.button}>
           <button

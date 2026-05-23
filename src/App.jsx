@@ -9,6 +9,10 @@ import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 function App() {
   return (
     <>
@@ -62,7 +66,35 @@ function App() {
                 }}
               />
             </span>
+            <div className={styles.techStack}>
+              <span className={styles.tech}>React js</span>
+              <span className={styles.tech}>Javascript</span>
+              <span className={styles.tech}>HTML</span>
+              <span className={styles.tech}>CSS</span>
+            </div>
           </div>
+        </div>
+        <div className={styles.comunicationContainer}>
+          <a
+            href="https://github.com/Shreejad123"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className={styles.comunication} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/shreeja-d-kotian-b4639a286/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className={styles.comunication} />
+          </a>
+          <a href="tel:+91 9483350641">
+            <FaPhone className={styles.comunication} />
+          </a>
+          <a href="mailto:shreejadkotian00@gmail.com">
+            <MdEmail className={styles.comunication} />
+          </a>
         </div>
       </div>
     </>

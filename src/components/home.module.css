@@ -1,20 +1,18 @@
 .homeSection {
-  padding: 30px;
+  padding: 20px;
   border-radius: 8px;
 }
 .header {
-  margin-left: 50px;
+  margin-top: 0;
   animation: 1.5s fadeInUp;
 }
 .paragraph {
   word-break: break-all;
   font-style: bold;
-  line-height: 2;
-  margin-left: 50px;
+
   animation: 1.5s fadeInUp;
 }
 .paragraphs {
-  line-height: 2;
   animation: 1.5s fadeInUp;
 }
 body {
@@ -40,18 +38,22 @@ body {
 }
 .lines {
   animation: 1.5s fadeInUp;
-  line-height: 2;
 }
 .customBtn:hover {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 .customBtn {
-  width: 28%;
-  margin-left: 5%;
+  width: 26%;
+  margin-right: 3%;
   margin-bottom: 20px;
   background: linear-gradient(to right, #a855f7, #3b82f6);
   color: aliceblue;
   border: none;
+  font-size: 14px;
+}
+.handicon {
+  color: yellow;
+  margin-bottom: 0;
 }
 .button {
   margin-top: 20px;
@@ -61,15 +63,10 @@ body {
 .lines {
   line-height: 3;
 }
+
 @media only screen and (max-width: 600px) {
   .homeSection {
     line-height: 2;
-  }
-  .header {
-    margin-left: 50px;
-  }
-  .paragraph {
-    margin-left: 50px;
   }
 
   .customBtn {
