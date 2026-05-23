@@ -5,12 +5,21 @@
 }
 .icons {
   margin-right: 35px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
-.customBtn {
-  width: 10%;
-  color: white;
+.icons:hover {
+  color: #0000a3;
+}
+
+.resume {
+  width: 13%;
+  padding: 8px;
+  border-radius: 50px;
+  font-size: 12px;
+  background: linear-gradient(to right, #a855f7, #3b82f6);
+  color: aliceblue;
+  border: none;
 }
 .customBtn:hover {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);

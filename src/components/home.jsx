@@ -2,10 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./home.module.css";
 import { useNavigate } from "react-router-dom";
 import { FaRegCheckCircle } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa6";
 function Home() {
   const navigate = useNavigate();
   return (
@@ -53,49 +50,6 @@ function Home() {
             <li />
           </ul>
         </p>
-        <span className={styles.lines}>
-          {" "}
-          <FaReact
-            style={{
-              fontSize: 45,
-              color: "#1E90FF",
-              marginLeft: 30,
-              marginTop: 10,
-              marginRight: 3,
-              marginBottom: 10,
-            }}
-          />
-          <IoLogoJavascript
-            style={{
-              fontSize: 45,
-              color: "#F0E68C",
-              marginLeft: 20,
-              marginTop: 10,
-              marginRight: 3,
-              marginBottom: 10,
-            }}
-          />
-          <FaHtml5
-            style={{
-              fontSize: 45,
-              color: "#FF4500",
-              marginLeft: 20,
-              marginTop: 10,
-              marginRight: 3,
-              marginBottom: 10,
-            }}
-          />{" "}
-          <FaCss3Alt
-            style={{
-              fontSize: 40,
-              marginRight: 3,
-              marginLeft: 20,
-              marginTop: 10,
-              color: "#1E90FF",
-              marginBottom: 10,
-            }}
-          />
-        </span>
         <div className={styles.button}>
           <button
             type="button"
@@ -109,7 +63,7 @@ function Home() {
             className={`btn btn-info ${styles.customBtn}`}
             onClick={() => navigate("/projects")}
           >
-            See my Projects
+            View my Projects
           </button>
         </div>
       </div>
