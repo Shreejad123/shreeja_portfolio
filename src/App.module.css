@@ -46,8 +46,8 @@ body {
   margin: auto;
   position: relative;
 
-  height: 90vh;
-  width: 85%;
+  height: 80vh;
+  width: 60%;
 
   display: grid;
   grid-template-columns: 1.6fr 1.2fr;
