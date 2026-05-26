@@ -13,6 +13,7 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import Projects from "./components/projects";
 function App() {
   return (
     <>
@@ -73,28 +74,28 @@ function App() {
               <span className={styles.tech}>CSS</span>
             </div>
           </div>
-        </div>
-        <div className={styles.comunicationContainer}>
-          <a
-            href="https://github.com/Shreejad123"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub className={styles.comunication} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/shreeja-d-kotian-b4639a286/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin className={styles.comunication} />
-          </a>
-          <a href="tel:+91 9483350641">
-            <FaPhone className={styles.comunication} />
-          </a>
-          <a href="mailto:shreejadkotian00@gmail.com">
-            <MdEmail className={styles.comunication} />
-          </a>
+          <div className={styles.comunicationContainer}>
+            <a
+              href="https://github.com/Shreejad123"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub size={20} className={styles.comunication} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/shreeja-d-kotian-b4639a286/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={20} className={styles.comunication} />
+            </a>
+            <a href="tel:+91 9483350641">
+              <FaPhone className={styles.comunication} />
+            </a>
+            <a href="mailto:shreejadkotian00@gmail.com">
+              <MdEmail size={20} className={styles.comunication} />
+            </a>
+          </div>
         </div>
       </div>
     </>

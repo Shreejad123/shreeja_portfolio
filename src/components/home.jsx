@@ -12,11 +12,11 @@ function Home() {
         <p>
           <PiHandWavingDuotone className={styles.handicon} /> Hi, &nbsp;I'm
         </p>
-        <h2 className={styles.header}>
+        <h3 className={styles.header}>
           <b>
             <br></br>Shreeja D Kotian
           </b>
-        </h2>
+        </h3>
         <p className={styles.paragraph}>
           <b>Frontend Web Developer</b>
         </p>
