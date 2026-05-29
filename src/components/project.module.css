@@ -6,12 +6,10 @@
   width: 80%;
   height: 90%;
   margin: auto;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.08);
 }
 .container:hover {
   transform: translateY(-6px);
-  border-color: #3b82f6; /* Accent border */
-  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.25);
 }
 .header {
   text-align: center;
@@ -22,7 +20,7 @@
   content: "";
 
   position: absolute;
-
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.08);
   width: 320px;
   height: 320px;
 
