@@ -61,7 +61,7 @@ function App() {
                   marginRight: 3,
                   marginLeft: 20,
                   marginTop: 10,
-                  color: "white",
+                  color: "yellow",
                   marginBottom: 10,
                 }}
               />
@@ -78,9 +78,9 @@ function App() {
             </span>
             <div className={styles.techStack}>
               <span className={styles.tech}>React js</span>
-              <span className={styles.tech}>Javascript</span>
+              <span className={styles.tech}>JavaScript</span>
               <span className={styles.tech}>Bootstrap</span>
-              <span className={styles.tech}>Nextjs</span>
+              <span className={styles.tech}>Next js</span>
               <span className={styles.tech}>TypeScript</span>
             </div>
           </div>

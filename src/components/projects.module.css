@@ -26,6 +26,10 @@
 
   z-index: 0;
 }
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+}
 
 .container::after {
   content: "";
@@ -35,7 +39,7 @@
   width: 320px;
   height: 320px;
 
-  background: rgba(59, 130, 246, 0.15);
+  background: rgba(168, 85, 247, 0.18);
 
   filter: blur(120px);
 
@@ -80,6 +84,8 @@
   color: aliceblue;
   border: none;
   font-size: 14px;
+  position: relative;
+  z-index: 1;
 }
 .header {
   margin-bottom: 5%;

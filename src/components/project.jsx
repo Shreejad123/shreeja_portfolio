@@ -17,7 +17,7 @@ function Project() {
       description:
         "Frontend dashboard for managing patient records and surgery tracking with dynamic forms and API integration.",
       tech: "React, REST API, Bootstrap",
-      github: "https://github.com/Shreejad123/healthlogix",
+      github: "https://github.com/Shreejad123/healthlogix/",
       liveDemo: "https://healthlogix-7pr3.vercel.app/",
       img: [dashboard, darkMode, statsCard, surgeryTable],
     },
@@ -28,7 +28,7 @@ function Project() {
       description:
         "A React e-commerce application with product listing, filtering, cart management, and localStorage support.",
       tech: "React, JavaScript, CSS",
-      github: "https://github.com/Shreejad123/E-COMMERCE-PROJECT",
+      github: "https://github.com/Shreejad123/E-COMMERCE-PROJECT/",
       liveDemo: "https://e-commerce-project-ec1o.vercel.app/",
       img: [Home, products, errorPage, viewDetails],
     },

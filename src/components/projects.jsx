@@ -33,13 +33,14 @@ const Projects = ({ List }) => {
 
         <p className={styles.description}>{List.description}</p>
         <p className={styles.tech}>Tech: {List.tech}</p>
-        <div>
+        <div className={styles.buttonContainer}>
           <button
             className={`btn btn-info ${styles.customBtn}`}
             onClick={() => window.open(List.liveDemo, "_blank")}
           >
             Live Demo
           </button>
+
           <button
             className={`btn btn-info ${styles.customBtn}`}
             onClick={() => window.open(List.github, "_blank")}
