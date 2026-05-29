@@ -39,10 +39,10 @@
   box-shadow: 0 15px 40px rgba(59, 130, 246, 0.25);
 }
 .header {
-  margin-left: 20px;
+  text-align: center;
 }
 .headers {
-  margin-left: 20px;
+  text-align: center;
 }
 @media only screen and (max-width: 600px) {
   .container {
