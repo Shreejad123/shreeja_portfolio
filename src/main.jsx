@@ -3,8 +3,8 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import Contact from "./components/contact.jsx";
-import About from "./components/about.jsx";
-import Skills from "./components/skills.jsx";
+import AboutSection from "./components/aboutSection.jsx";
+import SkillsSection from "./components/skillsSection.jsx";
 import ProjectSection from "./components/projectSection.jsx";
 import { ThemeProvider } from "./context/ThemeContext";
 createRoot(document.getElementById("root")).render(
@@ -13,8 +13,8 @@ createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/contact" element={<Contact />} />
         <Route path="/" element={<App />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
+        <Route path="/about" element={<AboutSection />} />
+        <Route path="/skills" element={<SkillsSection />} />
         <Route path="/projects" element={<ProjectSection />} />
       </Routes>
     </ThemeProvider>

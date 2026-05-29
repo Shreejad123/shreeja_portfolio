@@ -17,7 +17,6 @@ function About() {
   });
   return (
     <>
-      <NavBar />
       <div
         ref={ref}
         className={styles.container}

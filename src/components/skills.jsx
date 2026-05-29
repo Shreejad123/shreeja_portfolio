@@ -12,7 +12,7 @@ import NavBar from "../navBar";
 function Skills() {
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       <div className={styles.containerSection}>
         <h1 className={styles.header}>Skills</h1>
         <p className={styles.headers}>

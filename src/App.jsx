@@ -9,9 +9,10 @@ import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaBootstrap } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
-
+import About from "./components/about";
 import Project from "./components/project";
 import { BsTypescript } from "react-icons/bs";
+import Skills from "./components/skills";
 function App() {
   return (
     <>
@@ -87,6 +88,8 @@ function App() {
         </div>
       </div>
       <Project />
+      <About></About>
+      <Skills></Skills>
     </>
   );
 }
