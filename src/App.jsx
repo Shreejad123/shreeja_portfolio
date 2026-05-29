@@ -10,11 +10,12 @@ import { IoLogoJavascript } from "react-icons/io";
 import { FaBootstrap } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 
-import Projects from "./components/projects";
+import Project from "./components/project";
 import { BsTypescript } from "react-icons/bs";
 function App() {
   return (
     <>
+      {" "}
       <NavBar className={styles.NavBar} />
       <div className={styles.container}>
         <Home className={styles.column} />
@@ -85,6 +86,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Project />
     </>
   );
 }
