@@ -30,7 +30,7 @@ function App() {
                 style={{
                   fontSize: 30,
                   color: "#1E90FF",
-                  marginLeft: 30,
+
                   marginTop: 10,
                   marginRight: 3,
                   marginBottom: 10,
@@ -40,7 +40,7 @@ function App() {
                 style={{
                   fontSize: 30,
                   color: "#F0E68C",
-                  marginLeft: 20,
+
                   marginTop: 10,
                   marginRight: 3,
                   marginBottom: 10,
@@ -50,7 +50,7 @@ function App() {
                 style={{
                   fontSize: 30,
                   color: "#7952B3",
-                  marginLeft: 20,
+
                   marginTop: 10,
                   marginRight: 3,
                   marginBottom: 10,
@@ -60,7 +60,7 @@ function App() {
                 style={{
                   fontSize: 40,
                   marginRight: 3,
-                  marginLeft: 20,
+
                   marginTop: 10,
                   color: "yellow",
                   marginBottom: 10,
@@ -70,7 +70,7 @@ function App() {
                 style={{
                   fontSize: 36,
                   marginRight: 3,
-                  marginLeft: 20,
+
                   marginTop: 10,
                   color: "#3178C6",
                   marginBottom: 10,

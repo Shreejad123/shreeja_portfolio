@@ -69,7 +69,6 @@ body {
 
 /* GLOW EFFECTS */
 .tech {
-  margin-left: 5%;
   margin-top: 0;
 }
 
@@ -118,12 +117,6 @@ body {
 .container > * {
   position: relative;
   z-index: 2;
-}
-
-.leftSection {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .smallText {
@@ -273,26 +266,13 @@ body {
   .container {
     grid-template-columns: 1fr;
 
-    width: 92%;
+    width: 100%;
 
     height: auto;
 
     padding: 30px;
 
     gap: 40px;
-  }
-
-  .leftSection {
-    text-align: center;
-    align-items: center;
-  }
-
-  .mainHeading {
-    font-size: 46px;
-  }
-
-  .subHeading {
-    font-size: 24px;
   }
 
   .description {
@@ -329,7 +309,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .mainHeading {
     font-size: 38px;
   }
@@ -343,4 +323,4 @@ body {
 
     border-radius: 24px;
   }
-}
+} */
