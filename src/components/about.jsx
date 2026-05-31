@@ -58,36 +58,36 @@ function About() {
                 <b>What I Focus On</b>
               </h4>
               <div className={styles.paragraph}>
-                <li>
+                <li className={styles.lines}>
                   {" "}
                   <FaCheckCircle
                     style={{ marginRight: 5, color: "green" }}
                   ></FaCheckCircle>
                   Building responsive web applications
                 </li>
-                <li>
+                <li className={styles.lines}>
                   {" "}
                   <FaCheckCircle
                     style={{ marginRight: 5, color: "green" }}
                   ></FaCheckCircle>
                   Creating user-friendly interfaces
                 </li>
-                <li>
+                <li className={styles.lines}>
                   {" "}
                   <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
                   Developing reusable UI components
                 </li>
-                <li>
+                <li className={styles.lines}>
                   {" "}
                   <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
                   Writing clean and maintainable code
                 </li>
-                <li>
+                <li className={styles.lines}>
                   {" "}
                   <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
                   Delivering seamless user experiences
                 </li>
-                <li>
+                <li className={styles.lines}>
                   {" "}
                   <FaCheckCircle style={{ marginRight: 5, color: "green" }} />
                   Optimizing performance & cross-browser compatibility

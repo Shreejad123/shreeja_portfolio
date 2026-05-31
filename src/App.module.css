@@ -21,13 +21,13 @@ body {
   background:
     radial-gradient(
       circle at top left,
-      rgba(168, 85, 247, 0.15),
-      transparent 30%
+      rgba(88, 28, 135, 0.55) 0%,
+      /* dark purple */ transparent 35%
     ),
     radial-gradient(
       circle at bottom right,
-      rgba(59, 130, 246, 0.12),
-      transparent 30%
+      rgba(126, 34, 206, 0.3) 0%,
+      /* purple */ transparent 50%
     ),
     var(--background-color);
 
@@ -324,3 +324,8 @@ body {
     border-radius: 24px;
   }
 } */
+@media only screen and (max-width: 600px) {
+  .skills {
+    margin-left: auto;
+  }
+}

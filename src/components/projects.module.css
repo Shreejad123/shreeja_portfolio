@@ -1,6 +1,6 @@
 .container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 30px;
+  /* padding: 30px; */
   width: 100%;
   height: 100%;
   border-color: rgba(59, 130, 246, 0.5);
@@ -36,8 +36,8 @@
 
   position: absolute;
 
-  width: 320px;
-  height: 320px;
+  /* width: 320px;
+  height: 320px; */
 
   background: rgba(168, 85, 247, 0.18);
 
