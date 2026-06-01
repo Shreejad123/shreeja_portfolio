@@ -1,7 +1,8 @@
 .switch {
   position: relative;
   display: inline-block;
-  top: -25px;
+  left: 2.604vw;
+  top: 0.521vw;
 }
 
 .theme {
