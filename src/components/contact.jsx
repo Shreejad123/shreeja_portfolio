@@ -10,16 +10,16 @@ import { Link } from "react-router-dom";
 function Contact() {
   return (
     <>
-      <div className={styles.container}>
-        <div className={styles.contactSection}>
-          <h2 className={styles.contactHeader}>
-            <b>Contact Me</b>
+      {/* <div className={styles.container}> */}
+      <div className={styles.contactSection}>
+        {/* <h2 className={styles.contactHeader}> */}
+        {/* <b>Contact Me</b>
           </h2>
 
           <p>
             <b>Let's get in touch.</b>
-          </p>
-          <div className={styles.contact}>
+          </p> */}
+        {/* <div className={styles.contact}>
             <div>
               <label>Your Name</label>
               <input type="text" />
@@ -41,85 +41,79 @@ function Contact() {
               <button className={`btn btn-info ${styles.customBtn}`}>
                 Send message
               </button>
-            </div>
-          </div>
-        </div>
-        <div className={styles.profile}>
-          <h2 className={styles.connect}>
-            <b>Let's connect</b>
-          </h2>
-          <div className={styles.box}>
-            <p>
-              <b>
-                <FaPhoneAlt />
-                &nbsp; Call me
-              </b>
-            </p>
-            <p>9483350641</p>
-          </div>
-          <div className={styles.box}>
-            <p>
-              <b>
-                <MdOutlineEmail />
-                &nbsp; Email me:
-              </b>
-            </p>
-            <p>shreejadkotian00@gmail.com</p>
-          </div>
-          <div className={styles.box}>
-            <p>
-              <b>
-                {" "}
-                <FaGithub />
-                &nbsp; Github
-              </b>{" "}
-              :{" "}
-            </p>
-            <p>https://github.com/Shreejad123</p>
-          </div>
-          <div>
-            <p>
-              <span className={styles.icons}>
-                <Link
-                  to="https://www.linkedin.com/in/shreeja-d-kotian-b4639a286/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedin className={styles.iconsContainer} />
-                </Link>
-              </span>
-              <span className={styles.icons}>
-                <Link
-                  to="https://www.linkedin.com/in/shreeja-d-kotian-b4639a286/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaFacebookSquare className={styles.iconsContainer} />
-                </Link>
-              </span>
-              <span className={styles.icons}>
-                <Link
-                  to="https://www.linkedin.com/in/shreeja-d-kotian-b4639a286/"
-                  target="blank"
-                  rel="noopener noreferrer"
-                >
-                  <BsTwitterX className={styles.iconsContainer} />
-                </Link>
-              </span>
-              <span className={styles.icons}>
-                <Link
-                  to="https://github.com/Shreejad123"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaGithub className={styles.iconsContainer} />
-                </Link>
-              </span>
-            </p>
-          </div>
-        </div>
-        <div></div>
+            </div> */}
+        {/* </div> */}
       </div>
+      <div className={styles.profile}>
+        <h2 className={styles.connect}>
+          <b>Let's connect</b>
+        </h2>
+        <div className={styles.box}>
+          <p>
+            <b>
+              <FaPhoneAlt />
+              &nbsp; Call me:&nbsp;&nbsp;
+            </b>
+          </p>
+          <p>9483350641</p>
+        </div>
+        <div className={styles.box}>
+          <p>
+            <MdOutlineEmail />
+            &nbsp; Email me:&nbsp;&nbsp;
+          </p>
+          <p>shreejadkotian00@gmail.com</p>
+        </div>
+        <div className={styles.box}>
+          <p>
+            {" "}
+            <FaGithub />
+            &nbsp; Github: &nbsp;&nbsp;
+          </p>
+          <p>https://github.com/Shreejad123</p>
+        </div>
+        <div>
+          <p>
+            <span className={styles.icons}>
+              <Link
+                to="https://www.linkedin.com/in/shreeja-d-kotian-b4639a286/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin className={styles.iconsContainer} />
+              </Link>
+            </span>
+            <span className={styles.icons}>
+              <Link
+                to="https://www.linkedin.com/in/shreeja-d-kotian-b4639a286/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebookSquare className={styles.iconsContainer} />
+              </Link>
+            </span>
+            <span className={styles.icons}>
+              <Link
+                to="https://www.linkedin.com/in/shreeja-d-kotian-b4639a286/"
+                target="blank"
+                rel="noopener noreferrer"
+              >
+                <BsTwitterX className={styles.iconsContainer} />
+              </Link>
+            </span>
+            <span className={styles.icons}>
+              <Link
+                to="https://github.com/Shreejad123"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub className={styles.iconsContainer} />
+              </Link>
+            </span>
+          </p>
+        </div>
+      </div>
+      <div></div>
     </>
   );
 }

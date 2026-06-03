@@ -1,23 +1,12 @@
-.contactSection {
-  text-align: center;
-  margin-top: 50px;
-  box-shadow: 5px 10px 15px rgba(227, 185, 185, 0.3);
-  margin-left: 0;
-  width: 50%;
-  height: 450px;
-  background-color: white;
-}
-
 .profile {
   text-align: center;
   margin: auto;
   margin-top: 50px;
   box-shadow: 5px 10px 15px rgba(227, 185, 185, 0.3);
-  width: 40%;
+  width: 50%;
   height: 450px;
   flex: 1; /* Equal width columns */
-  padding: 20px;
-  background-color: white;
+  padding: 0px;
 }
 .customBtn {
   padding: 8px;
@@ -35,12 +24,14 @@
   gap: 20px;
 }
 .box {
+  padding: 2rem;
   height: 70px;
   border-radius: 5px;
+  margin-top: 40px;
   margin-bottom: 20px;
-  width: 400px;
+  width: 80%;
   margin-left: 50px;
-  border: 2px #1e90ff solid;
+  display: flex;
   padding-top: 5px;
 }
 .header {
