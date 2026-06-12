@@ -1,59 +1,15 @@
-.profile {
-  text-align: center;
-  margin: auto;
-  margin-top: 50px;
-  box-shadow: 5px 10px 15px rgba(227, 185, 185, 0.3);
-  width: 50%;
-  height: 450px;
-  flex: 1; /* Equal width columns */
-  padding: 0px;
+.contactSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
 }
-.customBtn {
-  padding: 8px;
-  width: 40%;
-}
-.contact input {
-  margin-bottom: 20px;
-}
-.contact label {
-  margin-right: 20px;
-}
-
-.container {
-  display: flex;
-  gap: 20px;
-}
-.box {
-  padding: 2rem;
-  height: 70px;
-  border-radius: 5px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+.contactContainer {
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 40px;
+  border-radius: 10px;
   width: 80%;
-  margin-left: 50px;
-  display: flex;
-  padding-top: 5px;
-}
-.header {
-  font-size: 25px;
-  margin-left: 200px;
-}
-.connect {
-  margin-right: 100px;
-  margin-bottom: 20px;
-}
-.icons {
-  margin-right: 20px;
-}
-
-.formfield {
-  display: flex;
-  margin-left: 110px;
-  margin-bottom: 20px;
-}
-.contact input {
-  width: 50%;
-}
-.contactHeader {
-  margin-top: 20px;
+  height: 100%;
+  min-height: 400px;
 }

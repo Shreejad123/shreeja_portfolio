@@ -10,110 +10,51 @@ import { Link } from "react-router-dom";
 function Contact() {
   return (
     <>
-      {/* <div className={styles.container}> */}
       <div className={styles.contactSection}>
-        {/* <h2 className={styles.contactHeader}> */}
-        {/* <b>Contact Me</b>
-          </h2>
-
+        <div className={styles.contactContainer}>
+          <p>GET IN TOUCH</p>
+          <h3>Let's Work Together.</h3>
           <p>
-            <b>Let's get in touch.</b>
-          </p> */}
-        {/* <div className={styles.contact}>
-            <div>
-              <label>Your Name</label>
-              <input type="text" />
-            </div>
-            <div>
-              <label>Your Email</label>
-              <input type="email" />
-            </div>
-            <div className={styles.formfield}>
-              <label for="message">Your Message:</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-                cols="30"
-              ></textarea>
-            </div>
-            <div>
-              <button className={`btn btn-info ${styles.customBtn}`}>
-                Send message
-              </button>
-            </div> */}
-        {/* </div> */}
-      </div>
-      <div className={styles.profile}>
-        <h2 className={styles.connect}>
-          <b>Let's connect</b>
-        </h2>
-        <div className={styles.box}>
+            I'm always open to dicussing new projects,creative ideas <br></br>
+            or opportunities to be part of your visions
+          </p>
           <p>
             <b>
               <FaPhoneAlt />
-              &nbsp; Call me:&nbsp;&nbsp;
+              &nbsp;Call me &nbsp;<span>+91 9483350641</span>
             </b>
           </p>
-          <p>9483350641</p>
+          <b>
+            <p>
+              <MdOutlineEmail />
+              &nbsp;Email me &nbsp;
+              <a href="mailto:shreejadkotian00@gmail.com">
+                shreejadkotian00@gmail.com
+              </a>
+            </p>
+          </b>
+          <b>
+            <p>
+              <FaGithub /> &nbsp; Github &nbsp;https://github.com/Shreejad123
+            </p>
+          </b>
         </div>
-        <div className={styles.box}>
-          <p>
-            <MdOutlineEmail />
-            &nbsp; Email me:&nbsp;&nbsp;
-          </p>
-          <p>shreejadkotian00@gmail.com</p>
-        </div>
-        <div className={styles.box}>
-          <p>
-            {" "}
-            <FaGithub />
-            &nbsp; Github: &nbsp;&nbsp;
-          </p>
-          <p>https://github.com/Shreejad123</p>
-        </div>
-        <div>
-          <p>
-            <span className={styles.icons}>
-              <Link
-                to="https://www.linkedin.com/in/shreeja-d-kotian-b4639a286/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedin className={styles.iconsContainer} />
-              </Link>
-            </span>
-            <span className={styles.icons}>
-              <Link
-                to="https://www.linkedin.com/in/shreeja-d-kotian-b4639a286/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaFacebookSquare className={styles.iconsContainer} />
-              </Link>
-            </span>
-            <span className={styles.icons}>
-              <Link
-                to="https://www.linkedin.com/in/shreeja-d-kotian-b4639a286/"
-                target="blank"
-                rel="noopener noreferrer"
-              >
-                <BsTwitterX className={styles.iconsContainer} />
-              </Link>
-            </span>
-            <span className={styles.icons}>
-              <Link
-                to="https://github.com/Shreejad123"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub className={styles.iconsContainer} />
-              </Link>
-            </span>
-          </p>
+        <div className="contact-card">
+          <h2>Send me a message</h2>
+          <p>I'll get back to you as soon as possible.</p>
+
+          <div className="row">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+          </div>
+
+          <input type="text" placeholder="Subject" />
+
+          <textarea rows="6" placeholder="Your Message"></textarea>
+
+          <button className="send-btn">✈ Send Message</button>
         </div>
       </div>
-      <div></div>
     </>
   );
 }
