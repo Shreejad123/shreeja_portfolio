@@ -37,7 +37,7 @@ function Project() {
   return (
     <section>
       {/*  */}
-      <h5 className={styles.header}>Projects</h5>
+      <h3 className={styles.header}>Projects</h3>
 
       <div className={styles.container}>
         {projectList.map((project) => (

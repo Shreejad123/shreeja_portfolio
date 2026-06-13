@@ -2,14 +2,106 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 20px;
+  column-gap: 0px;
+  place-items: center;
+  gap: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.25);
 }
 .contactContainer {
-  box-shadow:
-    0 4px 8px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 40px;
-  border-radius: 10px;
-  width: 80%;
+  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.25);
+  padding: 60px;
+  border-radius: 20px;
+  width: 90%;
   height: 100%;
   min-height: 400px;
+  line-height: 2;
+  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.25);
+  background-color: linear-gradient(
+    135deg,
+    #4c1d95 0%,
+    #312e81 50%,
+    #0f172a 100%
+  );
+  border: 1px solid #334155;
+}
+.contactInputs {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+
+  margin-top: 20px;
+}
+.contactInputs input,
+textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+.contactInputs input::placeholder,
+textarea::placeholder {
+  color: #777777;
+  font-size: 0.8rem;
+}
+.contactCard div {
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+.contactCard {
+  padding: 20px;
+  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.25);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 10%;
+  backdrop-filter: blur(14px);
+  background-color: linear-gradient(
+    135deg,
+    #4c1d95 0%,
+    #312e81 50%,
+    #0f172a 100%
+  );
+  border: 1px solid #334155;
+}
+
+.para {
+  font-size: 12px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.contactContainer p {
+  line-height: 2.5;
+}
+.circleBorder {
+  border-radius: 50%;
+  width: 5%;
+  height: 5%;
+  padding: 5px;
+  border: 2px solid #334155;
+}
+.icon {
+  font-size: 25px;
+}
+.contactContainer {
+  font-size: 14px;
+  background-color: linear-gradient(
+    135deg,
+    #4c1d95 0%,
+    #312e81 50%,
+    #0f172a 100%
+  );
+}
+.links {
+  text-decoration: none;
+  color: #a855f7;
+}
+.sendBtn {
+  background: linear-gradient(to right, #a855f7, #3b82f6);
+  border: none;
+  font-size: 14px;
+  margin-top: 10px;
+  width: 100%;
 }

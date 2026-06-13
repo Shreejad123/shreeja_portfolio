@@ -35,7 +35,7 @@ function NavBar() {
             <span
               className={styles.icons}
               onClick={() => {
-                navigate("/projects");
+                window.scrollBy(0, 450);
                 closeMobileMenu();
               }}
             >
@@ -46,7 +46,18 @@ function NavBar() {
             <span
               className={styles.icons}
               onClick={() => {
-                navigate("/skills");
+                window.scrollBy(0, 1000);
+                closeMobileMenu();
+              }}
+            >
+              About me
+            </span>
+          </li>
+          <li>
+            <span
+              className={styles.icons}
+              onClick={() => {
+                window.scrollBy(0, 2000);
                 closeMobileMenu();
               }}
             >
@@ -57,14 +68,13 @@ function NavBar() {
             <span
               className={styles.icons}
               onClick={() => {
-                navigate("/about");
+                window.scrollBy(0, 2000);
                 closeMobileMenu();
               }}
             >
-              About me
+              Contact Me
             </span>
           </li>
-
           <li>
             <a
               href={ExampleDoc}

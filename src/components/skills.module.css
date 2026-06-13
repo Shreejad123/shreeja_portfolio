@@ -43,11 +43,11 @@
   margin-right: 3px;
   border-radius: 5px;
   display: flex;
-
+  font-size: 25px;
   align-items: center;
   place-items: center;
   background:
-    (
+    radial-gradient(
       circle at top left,
       rgba(88, 28, 135, 0.55) 0%,
       /* dark purple */ transparent 35%
@@ -58,6 +58,7 @@
       /* purple */ transparent 50%
     ),
     var(--background-color);
+  border: 1px solid #334155;
 }
 .icons:hover {
   transform: translateY(-2px);

@@ -13,6 +13,7 @@ import About from "./components/about";
 import Project from "./components/project";
 import { BsTypescript } from "react-icons/bs";
 import Skills from "./components/skills";
+import Contact from "./components/contact";
 function App() {
   return (
     <>
@@ -90,6 +91,8 @@ function App() {
       <Project />
       <About></About>
       <Skills></Skills>
+      <h2 className={styles.contactHeading}>Contact</h2>
+      <Contact></Contact>
     </>
   );
 }
